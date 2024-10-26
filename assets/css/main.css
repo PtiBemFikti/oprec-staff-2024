@@ -2799,7 +2799,7 @@ button:disabled,
   -ms-order: 1;
   order: 1;
   border-radius: 0;
-  width: 25%;
+  width: 35%;
 }
 
 .spotlight .image img {
@@ -4113,33 +4113,6 @@ body.landing #footer {
 
 body.is-mobile.landing #page-wrapper {
   background: none;
-}
-
-body.is-mobile.landing #banner,
-body.is-mobile.landing .wrapper.style4 {
-  background-image: -moz-linear-gradient(
-      top,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url("../../images/banner3.png");
-  background-image: -webkit-linear-gradient(
-      top,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url("../../images/banner3.png");
-  background-image: -ms-linear-gradient(
-      top,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url("../../images/banner3.png");
-  background-image: linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../../images/banner3.png");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 body.is-mobile.landing #footer {
