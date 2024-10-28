@@ -2762,6 +2762,9 @@ button:disabled,
     position: relative;
     top: 0;
   }
+  .features img {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 736px) {
@@ -2770,6 +2773,7 @@ button:disabled,
     background-color: transparent !important;
     border-top: solid 2px #fff;
     width: 100%;
+    margin: 0 5px 10px 0;
   }
   .features img {
     display: none;
