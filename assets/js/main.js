@@ -4,10 +4,6 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-// Analytics
-import { inject } from "@vercel/analytics";
-inject();
-
 (function ($) {
   var $window = $(window),
     $body = $("body"),
